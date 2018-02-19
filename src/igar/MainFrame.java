@@ -6,7 +6,6 @@
 package igar;
 
 import javax.swing.JDialog;
-
 /**
  *
  * @author izotz
@@ -89,20 +88,20 @@ public class MainFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        JDialog test = new JDialog();
-           test.setVisible(true);
+      SecondaryDialog d = new SecondaryDialog(this,true,"botoncito 1");
+    d.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-           JDialog test = new JDialog();
-           test.setVisible(true);
+          SecondaryDialog d = new SecondaryDialog(this,true,"botoncito 2");
+    d.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-         JDialog test = new JDialog();
-           test.setVisible(true);
+    SecondaryDialog d = new SecondaryDialog(this,true,"botoncito 3");
+    d.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
